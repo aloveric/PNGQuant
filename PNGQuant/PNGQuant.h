@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double PNGQuantVersionNumber;
 //! Project version string for PNGQuant.
 FOUNDATION_EXPORT const unsigned char PNGQuantVersionString[];
 
+#import "libimagequant.h"
+
 // In this header, you should import all the public headers of your framework using statements like #import <PNGQuant/PublicHeader.h>
 
 

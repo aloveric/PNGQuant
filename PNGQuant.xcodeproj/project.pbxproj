@@ -8,12 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		36EEB4D51F0E4CF500386851 /* PNGQuant.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4D31F0E4CF500386851 /* PNGQuant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EEB4E91F0E4E4A00386851 /* blur.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4DB1F0E4E4A00386851 /* blur.c */; };
+		36EEB4EA1F0E4E4A00386851 /* blur.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4DC1F0E4E4A00386851 /* blur.h */; };
+		36EEB4EB1F0E4E4A00386851 /* kmeans.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4DD1F0E4E4A00386851 /* kmeans.c */; };
+		36EEB4EC1F0E4E4A00386851 /* kmeans.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4DE1F0E4E4A00386851 /* kmeans.h */; };
+		36EEB4ED1F0E4E4A00386851 /* libimagequant.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4DF1F0E4E4A00386851 /* libimagequant.c */; };
+		36EEB4EE1F0E4E4A00386851 /* libimagequant.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4E01F0E4E4A00386851 /* libimagequant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EEB4EF1F0E4E4A00386851 /* mediancut.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4E11F0E4E4A00386851 /* mediancut.c */; };
+		36EEB4F01F0E4E4A00386851 /* mediancut.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4E21F0E4E4A00386851 /* mediancut.h */; };
+		36EEB4F11F0E4E4A00386851 /* mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4E31F0E4E4A00386851 /* mempool.c */; };
+		36EEB4F21F0E4E4A00386851 /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4E41F0E4E4A00386851 /* mempool.h */; };
+		36EEB4F31F0E4E4A00386851 /* nearest.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4E51F0E4E4A00386851 /* nearest.c */; };
+		36EEB4F41F0E4E4A00386851 /* nearest.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4E61F0E4E4A00386851 /* nearest.h */; };
+		36EEB4F51F0E4E4A00386851 /* pam.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4E71F0E4E4A00386851 /* pam.c */; };
+		36EEB4F61F0E4E4A00386851 /* pam.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EEB4E81F0E4E4A00386851 /* pam.h */; };
+		36EEB4F81F0E4F9700386851 /* PNGQuant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4F71F0E4F9700386851 /* PNGQuant.swift */; };
+		36EEB4FA1F0E507200386851 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4F91F0E507200386851 /* Attributes.swift */; };
+		36EEB4FE1F0E508E00386851 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEB4FD1F0E508E00386851 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36EEB4D01F0E4CF500386851 /* PNGQuant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PNGQuant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EEB4D31F0E4CF500386851 /* PNGQuant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNGQuant.h; sourceTree = "<group>"; };
 		36EEB4D41F0E4CF500386851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EEB4DB1F0E4E4A00386851 /* blur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blur.c; sourceTree = "<group>"; };
+		36EEB4DC1F0E4E4A00386851 /* blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blur.h; sourceTree = "<group>"; };
+		36EEB4DD1F0E4E4A00386851 /* kmeans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kmeans.c; sourceTree = "<group>"; };
+		36EEB4DE1F0E4E4A00386851 /* kmeans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kmeans.h; sourceTree = "<group>"; };
+		36EEB4DF1F0E4E4A00386851 /* libimagequant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libimagequant.c; sourceTree = "<group>"; };
+		36EEB4E01F0E4E4A00386851 /* libimagequant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libimagequant.h; sourceTree = "<group>"; };
+		36EEB4E11F0E4E4A00386851 /* mediancut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mediancut.c; sourceTree = "<group>"; };
+		36EEB4E21F0E4E4A00386851 /* mediancut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mediancut.h; sourceTree = "<group>"; };
+		36EEB4E31F0E4E4A00386851 /* mempool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mempool.c; sourceTree = "<group>"; };
+		36EEB4E41F0E4E4A00386851 /* mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
+		36EEB4E51F0E4E4A00386851 /* nearest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nearest.c; sourceTree = "<group>"; };
+		36EEB4E61F0E4E4A00386851 /* nearest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nearest.h; sourceTree = "<group>"; };
+		36EEB4E71F0E4E4A00386851 /* pam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pam.c; sourceTree = "<group>"; };
+		36EEB4E81F0E4E4A00386851 /* pam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pam.h; sourceTree = "<group>"; };
+		36EEB4F71F0E4F9700386851 /* PNGQuant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNGQuant.swift; sourceTree = "<group>"; };
+		36EEB4F91F0E507200386851 /* Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		36EEB4FD1F0E508E00386851 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +80,43 @@
 		36EEB4D21F0E4CF500386851 /* PNGQuant */ = {
 			isa = PBXGroup;
 			children = (
+				36EEB4FC1F0E508100386851 /* Swift Wrapper */,
+				36EEB4FB1F0E507500386851 /* libimagequant */,
 				36EEB4D31F0E4CF500386851 /* PNGQuant.h */,
 				36EEB4D41F0E4CF500386851 /* Info.plist */,
 			);
 			path = PNGQuant;
+			sourceTree = "<group>";
+		};
+		36EEB4FB1F0E507500386851 /* libimagequant */ = {
+			isa = PBXGroup;
+			children = (
+				36EEB4DB1F0E4E4A00386851 /* blur.c */,
+				36EEB4DC1F0E4E4A00386851 /* blur.h */,
+				36EEB4DD1F0E4E4A00386851 /* kmeans.c */,
+				36EEB4DE1F0E4E4A00386851 /* kmeans.h */,
+				36EEB4DF1F0E4E4A00386851 /* libimagequant.c */,
+				36EEB4E01F0E4E4A00386851 /* libimagequant.h */,
+				36EEB4E11F0E4E4A00386851 /* mediancut.c */,
+				36EEB4E21F0E4E4A00386851 /* mediancut.h */,
+				36EEB4E31F0E4E4A00386851 /* mempool.c */,
+				36EEB4E41F0E4E4A00386851 /* mempool.h */,
+				36EEB4E51F0E4E4A00386851 /* nearest.c */,
+				36EEB4E61F0E4E4A00386851 /* nearest.h */,
+				36EEB4E71F0E4E4A00386851 /* pam.c */,
+				36EEB4E81F0E4E4A00386851 /* pam.h */,
+			);
+			name = libimagequant;
+			sourceTree = "<group>";
+		};
+		36EEB4FC1F0E508100386851 /* Swift Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				36EEB4F71F0E4F9700386851 /* PNGQuant.swift */,
+				36EEB4F91F0E507200386851 /* Attributes.swift */,
+				36EEB4FD1F0E508E00386851 /* Image.swift */,
+			);
+			name = "Swift Wrapper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +126,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EEB4F21F0E4E4A00386851 /* mempool.h in Headers */,
+				36EEB4EE1F0E4E4A00386851 /* libimagequant.h in Headers */,
+				36EEB4F61F0E4E4A00386851 /* pam.h in Headers */,
 				36EEB4D51F0E4CF500386851 /* PNGQuant.h in Headers */,
+				36EEB4F01F0E4E4A00386851 /* mediancut.h in Headers */,
+				36EEB4EC1F0E4E4A00386851 /* kmeans.h in Headers */,
+				36EEB4EA1F0E4E4A00386851 /* blur.h in Headers */,
+				36EEB4F41F0E4E4A00386851 /* nearest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +169,7 @@
 				TargetAttributes = {
 					36EEB4CF1F0E4CF500386851 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EEB4F31F0E4E4A00386851 /* nearest.c in Sources */,
+				36EEB4ED1F0E4E4A00386851 /* libimagequant.c in Sources */,
+				36EEB4EB1F0E4E4A00386851 /* kmeans.c in Sources */,
+				36EEB4F51F0E4E4A00386851 /* pam.c in Sources */,
+				36EEB4EF1F0E4E4A00386851 /* mediancut.c in Sources */,
+				36EEB4F11F0E4E4A00386851 /* mempool.c in Sources */,
+				36EEB4E91F0E4E4A00386851 /* blur.c in Sources */,
+				36EEB4FA1F0E507200386851 /* Attributes.swift in Sources */,
+				36EEB4F81F0E4F9700386851 /* PNGQuant.swift in Sources */,
+				36EEB4FE1F0E508E00386851 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +326,7 @@
 		36EEB4D91F0E4CF500386851 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -252,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.exurion.PNGQuant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +346,7 @@
 		36EEB4DA1F0E4CF500386851 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
